@@ -1,5 +1,5 @@
 # DevOps and SDLC: A Beginner's Guide
-![alt text](image.png)
+![alt text](image-1.png)
 ## 1. Requirements:
 - **What it is**: It's the stage where you gather all the things that the project needs to do. For example, if you're building an e-commerce website, you would list out things like product categories, checkout features, and payment options.
 - **DevOps**: In traditional SDLC, requirements are set once at the start. In DevOps, it’s ongoing. Teams constantly refine and adjust requirements based on feedback.

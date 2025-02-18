@@ -73,3 +73,43 @@ Now, let's look at how these concepts apply in **AWS**:
 
 With AWS, you don’t need to worry about the physical server hardware. You simply create EC2 instances (virtual machines) to run your applications.
 
+
+# Interview Answers for Server, VM, Hypervisor, and AWS Concepts
+
+## 1. What is a Server?
+**Answer**: A server is a powerful computer or system that provides resources, data, or services to other computers (clients) over a network. Servers are essential for hosting websites, managing databases, and running applications. They are designed to handle multiple requests simultaneously and typically operate 24/7 without interruption.
+
+---
+
+## 2. What is a VM (Virtual Machine)?
+**Answer**: A Virtual Machine (VM) is a software-based emulation of a physical computer. It runs its own operating system and applications, using the resources of the host computer (the physical machine). VMs allow multiple operating systems to run on a single machine, providing isolation between different environments and applications.
+
+---
+
+## 3. What is a Hypervisor?
+**Answer**: A hypervisor is software that creates and manages Virtual Machines (VMs). It sits between the physical hardware and the VMs, allocating resources such as CPU, memory, and storage. There are two types of hypervisors:
+   - **Type 1 (Bare-metal)**: Runs directly on the physical hardware (e.g., VMware ESXi).
+   - **Type 2 (Hosted)**: Runs on top of an existing operating system (e.g., VMware Workstation, VirtualBox).
+
+---
+
+## 4. Difference Between Physical and Virtual Machines
+**Answer**: 
+   - **Physical Machine**: A physical computer with its own hardware, where the operating system and applications run directly on the hardware.
+   - **Virtual Machine (VM)**: A software-based computer running on a hypervisor, using the resources of a physical machine. Multiple VMs can run on a single physical machine, whereas a physical machine is limited to one OS.
+
+---
+
+## 5. Advantages of Virtual Machines
+**Answer**:
+   - **Resource Efficiency**: Multiple VMs can run on a single physical machine, maximizing hardware usage.
+   - **Isolation**: VMs are isolated from each other, so failures in one VM don’t affect others.
+   - **Flexibility**: VMs can be easily created, modified, or deleted as needed.
+   - **Cost Savings**: Virtualization reduces hardware costs by allowing multiple operating systems on a single physical machine.
+   - **Portability**: VMs can be moved between different physical servers or cloud environments without issues.
+
+---
+
+## In the Context of AWS:
+**Answer**: In AWS, **EC2 instances** are virtual machines running on AWS's physical servers. AWS uses a hypervisor to manage these EC2 instances, which can run various operating systems. The ability to create, scale, and manage EC2 instances without worrying about physical hardware is one of the key benefits of using cloud services like AWS.
+
